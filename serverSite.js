@@ -57,11 +57,6 @@ app.post("/login", (req, res) => {
 
 return res.json("okk");
     });
-  
-
-app.listen(port, () => { 
-    console.log(`Server is running on port yes `);
-  })
 
 
 function dateheur (){
@@ -82,3 +77,9 @@ const formattedDate = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 return formattedDate
 
 }
+
+
+app.listen(port, () => { 
+    console.log(`Server is running on port yes `);
+  })
+
