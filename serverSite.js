@@ -1,9 +1,9 @@
 const express = require("express");
-const Parser = require("body-parser");
-const bodyParser = require("body-parser");
+///const Parser = require("body-parser");
+//const bodyParser = require("body-parser");
 const mysql=require("mysql2")
 const app =express()
-const port =process.env.POTT || 5000
+const port = 5000
 // const db =require('./config/database');
 // const modelexpor =require('./models/index')
 const cors =require("cors")
