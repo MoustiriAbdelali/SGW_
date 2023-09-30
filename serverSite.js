@@ -59,24 +59,7 @@ return res.json("okk");
     });
 
 
-function dateheur (){
-    const currentDate = new Date();
 
-// Get the individual components of the date and time
-const year = currentDate.getFullYear();
-const month = currentDate.getMonth() + 1; // Months are 0-based, so add 1
-const day = currentDate.getDate();
-const hours = currentDate.getHours();
-const minutes = currentDate.getMinutes();
-const seconds = currentDate.getSeconds();
-
-// Format the date and time as a string
-const formattedDate = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-
-
-return formattedDate
-
-}
 
 
 app.listen(port, () => { 
