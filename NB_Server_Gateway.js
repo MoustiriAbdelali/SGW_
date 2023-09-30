@@ -14,7 +14,7 @@ function uploadData(attr, token) {
         const str_url = "/login";// + token + "/telemetry";
         const len_attr = attr.length;
         const headers = {
-            "Host": "localhost",
+            "Host": "91.134.151.72",
             "User-Agent": "curl/7.55.1",
             "Accept-Language": "*/*",
             "Content-Type": "application/json",
@@ -23,7 +23,7 @@ function uploadData(attr, token) {
         };
 
         const options = {
-            hostname: "localhost",
+            hostname: "91.134.151.72",
             port: 5000,
             path: str_url,
             method: "POST",
